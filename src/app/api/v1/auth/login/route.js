@@ -1,5 +1,5 @@
 import prisma from "@/utils/prisma";
-import { compare, hash } from "bcrypt";
+import { compare } from "bcrypt";
 import { sign } from "jsonwebtoken";
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
